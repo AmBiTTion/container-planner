@@ -1,0 +1,11 @@
+node_modules/
+npm-cache/
+dist/
+data/
+work/
+runtime/
+.env
+.env.*
+*.log
+*.pid
+*.tmp
