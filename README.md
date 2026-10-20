@@ -4,6 +4,37 @@
 
 项目可离线运行，不需要账号或云服务。方案默认只保存在本机，不会自动上传。它曾用于实际订单的装载测算参考，但不替代现场试装、包装测试、叉车作业评估或运输安全验收。
 
+## 写在前面
+
+> 对于外贸人来说，装柜计算是一件比较困难的事。很多时候，我们只能在纸面上计算和规划。现在希望这个工具能很好地帮助到你，通过 3D 模型和科学计算来辅助判断装柜方案。未经许可，请勿用于二次转发、售卖等用途。
+>
+> —— 项目作者
+
+## 效果预览
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/01-container-auto-packing.png" alt="20GP 纸箱自动装柜效果">
+      <br><strong>自动装柜</strong>：计算候选阵列，并同步显示件数、重量、空间利用率和剩余空间。
+    </td>
+    <td width="50%">
+      <img src="docs/images/02-softbag-palletizing.png" alt="编织袋压缩码托效果">
+      <br><strong>软包码托</strong>：根据有效尺寸、压缩量、层数、支撑和承重计算托盘阵列。
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/03-pallet-designer.png" alt="自定义托盘设计器">
+      <br><strong>托盘设计器</strong>：选择预设结构，或自由调整面板、横梁、脚墩、材质、颜色和文字。
+    </td>
+    <td width="50%">
+      <img src="docs/images/04-photo-presentation.png" alt="混装方案拍照展示模式">
+      <br><strong>拍照展示</strong>：用纯净 3D 视图展示混装结果、柜门模型和集装箱皮肤。
+    </td>
+  </tr>
+</table>
+
 ## 核心能力
 
 ### 集装箱与托盘
